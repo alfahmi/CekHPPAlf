@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- warna theme dark -->
+	
+	<color name="warnaUtama">#3F51B5</color>
+    <color name="warnaUtamaDark">#303F9F</color>
+	<color name="warnaAksen">#FF4081</color>
+	<color name="warnaLatar">#eeeeee</color>
+	<color name="warnaIcon">#e0e0e0</color>
+	<!--
+    <color name="warnaUtama">#FF01579B</color>
+    <color name="warnaAksen">#FFFBC300</color>
+	<color name="warnaLatar">#FFCED8DC</color>
+	<color name="warnaIcon">#757575</color>
+	-->
+</resources>
