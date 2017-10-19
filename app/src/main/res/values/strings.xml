@@ -3,58 +3,58 @@
 
     <string name="app_name">Cek HPP</string>
     <string name="hello_world">Hello world!</string>
-	<string-array name="alf_produk">
-		<item>Pilih Produk</item>
-		<item>Simpati 10k</item>
-		<item>Simpati 50k</item>
-		<item>As 5k</item>
-		<item>As 50k</item>
-		<item>Loop 5k</item>
-		<item>Loop 30k</item>
-	</string-array>
-	<string-array name="alf_produk_values">
-		<item>0</item>
-		<item>9000</item>
-		<item>45000</item>
-		<item>4500</item>
-		<item>45000</item>
-		<item>4500</item>
-		<item>27000</item>
-	</string-array>
-	<string-array name="alf_mkios1">
-		<item>Pilih Mkios 1</item>
-		<item>M-Kios 5rb</item>
-		<item>M-Kios 10rb</item>
-		<item>M-Kios 20rb</item>
-		<item>M-Kios 25rb</item>
-		<item>M-Kios 50rb</item>
-		<item>M-Kios 100rb</item>
-	</string-array>
-	<string-array name="alf_mkios2">
-		<item>Pilih Mkios 2</item>
-		<item>M-Kios 5rb</item>
-		<item>M-Kios 10rb</item>
-		<item>M-Kios 20rb</item>
-		<item>M-Kios 25rb</item>
-		<item>M-Kios 50rb</item>
-		<item>M-Kios 100rb</item>
-	</string-array>
-	<string-array name="alf_mkios3">
-		<item>Pilih Mkios 3</item>
-		<item>M-Kios 5rb</item>
-		<item>M-Kios 10rb</item>
-		<item>M-Kios 20rb</item>
-		<item>M-Kios 25rb</item>
-		<item>M-Kios 50rb</item>
-		<item>M-Kios 100rb</item>
-	</string-array>
-	<string-array name="alf_mkios_values">
-		<item>0</item>
-		<item>4900</item>
-		<item>9800</item>
-		<item>19600</item>
-		<item>24500</item>
-		<item>48750</item>
-		<item>96500</item>
-	</string-array>
+    <string-array name="alf_produk">
+        <item>Pilih Produk</item>
+        <item>Simpati 10k</item>
+        <item>Simpati 50k</item>
+        <item>As 5k</item>
+        <item>As 50k</item>
+        <item>Loop 5k</item>
+        <item>Loop 30k</item>
+    </string-array>
+    <string-array name="alf_produk_values">
+        <item>0</item>
+        <item>9000</item>
+        <item>45000</item>
+        <item>4500</item>
+        <item>45000</item>
+        <item>4500</item>
+        <item>27000</item>
+    </string-array>
+    <string-array name="alf_mkios1">
+        <item>Pilih Mkios 1</item>
+        <item>M-Kios 5rb</item>
+        <item>M-Kios 10rb</item>
+        <item>M-Kios 20rb</item>
+        <item>M-Kios 25rb</item>
+        <item>M-Kios 50rb</item>
+        <item>M-Kios 100rb</item>
+    </string-array>
+    <string-array name="alf_mkios2">
+        <item>Pilih Mkios 2</item>
+        <item>M-Kios 5rb</item>
+        <item>M-Kios 10rb</item>
+        <item>M-Kios 20rb</item>
+        <item>M-Kios 25rb</item>
+        <item>M-Kios 50rb</item>
+        <item>M-Kios 100rb</item>
+    </string-array>
+    <string-array name="alf_mkios3">
+        <item>Pilih Mkios 3</item>
+        <item>M-Kios 5rb</item>
+        <item>M-Kios 10rb</item>
+        <item>M-Kios 20rb</item>
+        <item>M-Kios 25rb</item>
+        <item>M-Kios 50rb</item>
+        <item>M-Kios 100rb</item>
+    </string-array>
+    <string-array name="alf_mkios_values">
+        <item>0</item>
+        <item>4900</item>
+        <item>9800</item>
+        <item>19600</item>
+        <item>24500</item>
+        <item>48750</item>
+        <item>96500</item>
+    </string-array>
 </resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:layout_alignParentTop="true"
+        android:background="@color/warnaUtama"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="37dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Rp. 0"/>
+
+        <TextView
+            android:id="@+id/hasil_kali"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:background="@drawable/alf_background"
+        android:padding="15dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_height"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="20dp"
+                android:id="@+id/alfahmi_ic_cart"
+                android:src="@drawable/alfdev_produk" />
+
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_weight="1"
+                android:id="@+id/alfahmi_produk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/alf_produk"
+                android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_height"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="20dp"
+                android:id="@+id/alfahmi_ic_coin"
+                android:src="@drawable/alfdev__nominal" />
+
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_weight="1"
+                android:id="@+id/alfahmi_mkios1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/alf_mkios1"
+                android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_height"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="20dp"
+                android:id="@+id/alfahmi_ic_coin"
+                android:src="@drawable/alfdev__nominal" />
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_weight="1"
+                android:id="@+id/alfahmi_mkios2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/alf_mkios2"
+                android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_height"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="20dp"
+                android:id="@+id/alfahmi_ic_coin"
+                android:src="@drawable/alfdev__nominal" />
+
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_weight="1"
+                android:id="@+id/alfahmi_mkios3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/alf_mkios3"
+                android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="20dp"
+                android:id="@+id/alfahmi_ic_coin"
+                android:src="@drawable/alfdev_cashback" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/alfahmi_cashback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cashback"
+                android:inputType="number"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="20dp"
+                android:id="@+id/alfahmi_ic_coin"
+                android:src="@drawable/alfdev__quantity" />
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/alfahmi_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/AppTheme.Button"
+                android:id="@+id/alfahmi_cek_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="  CEK  " />
+
+            <Button
+                style="@style/AppTheme.Button"
+                android:id="@+id/alfahmi_reset_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=" RESET " />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="Powered by : Fahmi Ahmad Fauzi"/>
+
+</RelativeLayout>
